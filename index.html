@@ -1,344 +1,396 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" href="icone-disney.png" type="img/icon">
-    <title>Disney Plus</title>
+    <link rel="shortcut icon" href="images/icone-disney.png" type="img/icon">
+    <title>Sites Web Disney Plus</title>
 </head>
 <body>
-    <header>
+
+      <header>
         <nav>
-            <div class="boutton">
-              <a href=""><button>LOG IN</button></a>
+            <div class="boutton_connexion">
+                <!-- Lien vers la page de connexion avec un bouton de connexion -->
+                <a href=""><button>S'IDENTIFIER</button></a>
             </div>
         </nav>
         <section>
-          <h1><span class="line1">New original productions,</span> <span class="line2">great movies, iconic series and more streaming</span></h1>
-          <h3>No additional cost. No commitment.*</h3>
-          <p>Enter your email address to start or reactivate your subscription.</p>
-       
-          <div class="form-container">
-            <form>
-                <input type="email" placeholder="Email address" required="">
-                <button type="submit"><em>SIGN UP</em></button>
-            </form>
-  
-        </div>
-        <h4><span class="line3">Enjoy 12 months for the price of 10 with a</span> <span class="line4">Premium or Standard annual subscription. Savings compared to a year of monthly subscription.</span></h4>
-
-       <h5> * Cancellation takes effect at the end of the current subscription period. Subscription required. <br> Becoming Karl Lagerfield streaming from June 7. </h5>
-      <div class="signe-bas">
-            <img src="logo-signe-mathematique.svg" width="18px" alt="">
-        </div> 
-     </section>
+            <!-- Titre principal avec un slogan marketing -->
+            <h1><span class="line-paragraphe1">Nouvelles productions originales,</span> 
+                <span class="line-paragraphe2">grands films, séries cultes et encore + en streaming</span>
+            </h1>
+            <h3>Sans coût additionnel. Sans engagement.*</h3>
+            <p>Entrez votre adresse e-mail pour commencer ou réactiver votre abonnement.</p>
+            
+            <div class="form-container">
+                <!-- Formulaire pour l'inscription avec un champ email obligatoire -->
+                <form>
+                    <input type="email" placeholder="Adresse e-mail" required>
+                    <button type="submit"><em>S'INSCRIRE</em></button>
+                </form>
+            </div>
+            <!-- Offre promotionnelle d'abonnement avec une mise en évidence du texte -->
+            <h4><span class="line-paragraphe3">Profitez de 12 mois au prix de 10 avec un abonnement</span> 
+                <span class="line-paragraphe4">Premium ou Standard annuel. Économies par rapport à un an d'abonnement mensuel.</span>
+            </h4>
+            
+            <!-- Note légale pour clarifier les termes de l'abonnement -->
+            <h5>* la résiliation prend effet à la fin de la période d'abonnement en cours. Abonnement requis. <br> 
+                Becoming Karl Lagerfield en streaming dès le 7 juin.
+            </h5>
+            
+            <!-- Logo mathématique utilisé à des fins esthétiques -->
+            <div class="signe-pour-bas">
+                <img src="images/logo-signe-mathematique.svg" width="18px" alt="">
+            </div> 
+        </section>
     </header>
 
 <main>
 
     <section class="presentation">
         <div class="conteneur">
-            <h1><em> <span class="line-break-1">Only on </span>Disney+</em></h1> 
+            <!-- Titre sur les exclusivités Disney+ avec une mise en forme en italique -->
+            <h1><em><span class="saut-de-ligne-1">Seulement sur </span>Disney+</em></h1> 
             <h4>
-                <span class="line-break-1">Exclusive series and productions</span> <span class="line-break-2">that you won't</span>
-                <span class="line-break-3">find on any other streaming </span>service.
+                <!-- Phrase découpée pour s'adapter au design mobile/desktop -->
+                <span class="saut-de-ligne-1">Des séries et productions</span> 
+                <span class="saut-de-ligne-2">originales exclusives que vous ne</span>
+                <span class="saut-de-ligne-3">trouverez sur aucun autre service </span>de streaming.
             </h4>
-            <p>© 2023 TAS Rights Management LLC</p>
+            <!-- Mention légale sur les droits d'auteur -->
+            <p>&copy; 2023 TAS Rights Management LLC</p>
         </div>
-     </section>
+    </section>
      
-     <section class="tableau-pour-tel">
+    <!-- Section pour les abonnements appliqué sur appareils mobiles -->
+    <section class="tableau-abonnement-pour-tel">
         <div class="container">
-          <h1>Select your subscription</h1>
-          <div class="plans">
-            <div class="plan standard-pub">
-              <button>STANDARD WITH ADS</button>
-              <div class="price">€5.99 / month</div>
+            <h1>Sélectionnez votre abonnement</h1>
+            <div class="plans">
+                <!-- Trois options d'abonnement avec leurs prix -->
+                <div class="plan-abonnement-avec-pub-standard">
+                    <button>STANDARD AVEC PUB</button>
+                    <div class="prix">5,99 € / mois</div>
+                </div>
+                <div class="plan-abonnement-standard">
+                    <button>STANDARD</button>  
+                    <div class="prix">8,99 € / mois</div>
+                </div>
+                <div class="plan-abonnement-premium">
+                    <button>PREMIUM</button>
+                    <div class="prix">11,99 € / mois</div>
+                </div>
             </div>
-            <div class="plan standard">
-            <button>STANDARD</button>  
-              <div class="price">€8.99 / month</div>
+            <!-- Offre annuelle avec des réductions mentionnées -->
+            <div class="offre-pour-années">
+                <p>Profitez de 12 mois au prix de 10*</p>
+                <div class="prix-annuel">
+                    <!-- Les prix annuels sont affichés pour chaque plan -->
+                    <div class="article de prix">-</div>
+                    <div class="article de prix">89,90 € / an</div>
+                    <div class="article de prix">119,90 € / an</div>
+                </div>
             </div>
-            <div class="plan premium">
-             <button>PREMIUM</button>
-              <div class="price">€11.99 / month</div>
+            <!-- Caractéristiques  (qualité vidéo, lectures simultanées, etc.) -->
+            <div class="offre-pour-années">
+                <p>Qualité vidéo jusqu'à</p>
+                <div class="prix-annuel">
+                    <div class="article de prix">1080p FullHD</div>
+                    <div class="article de prix">1080p FullHD</div>
+                    <div class="article de prix">4K Ultra HD et HDR</div>
+                </div>
             </div>
-          </div>
-          <div class="annual-offer">
-            <p>Enjoy 12 months for the price of 10*</p>
-            <div class="annual-prices">
-              <div class="price-item">-</div>
-              <div class="price-item">€89.90 / year</div>
-              <div class="price-item">€119.90 / year</div>
+            <div class="offre-pour-années">
+                <p>Lectures simultanées</p>
+                <div class="prix-annuel">
+                    <div class="article de prix">2</div>
+                    <div class="article de prix">2</div>
+                    <div class="article de prix">4</div>
+                </div>
             </div>
-          </div>
-          <div class="annual-offer">
-            <p>Video quality up to</p>
-            <div class="annual-prices">
-              <div class="price-item">1080p FullHD</div>
-              <div class="price-item">1080p FullHD</div>
-              <div class="price-item">4K Ultra HD and HDR</div>
+            <div class="offre-pour-années">
+                <p>Téléchargements</p>
+                <div class="prix-annuel">
+                    <div class="article de prix">-</div>
+                    <div class="article de prix"><img src="images/logo-valide-blanc.svg" width="15px" alt=""></div>
+                    <div class="article de prix"><img src="images/logo-valide-blanc.svg" width="15px" alt=""></div>
+                </div>
             </div>
-          </div>
-          <div class="annual-offer">
-            <p>Simultaneous streams</p>
-            <div class="annual-prices">
-              <div class="price-item">2</div>
-              <div class="price-item">2</div>
-              <div class="price-item">4</div>
+            <div class="offre-pour-années">
+                <p>Prise en charge de Dolby Atmos</p>
+                <div class="prix-annuel">
+                    <div class="article de prix">-</div>
+                    <div class="article de prix"><img src="images/logo-valide-blanc.svg" width="15px" alt=""></div>
+                </div>
             </div>
-          </div>
-          <div class="annual-offer">
-            <p>Downloads</p>
-            <div class="annual-prices">
-              <div class="price-item">-</div>
-              <div class="price-item"><img src="logo-valide-blanc.svg" width="15px" alt=""></div>
-              <div class="price-item"><img src="logo-valide-blanc.svg" width="15px" alt=""></div>
+            <div class="offre-pour-années">
+                <p>Streaming sans publicité***</p>
+                <div class="prix-annuel">
+                    <div class="article de prix">-</div>
+                    <div class="article de prix"><img src="images/logo-valide-blanc.svg" width="15px" alt=""></div>
+                    <div class="article de prix"><img src="images/logo-valide-blanc.svg" width="15px" alt=""></div>
+                </div>
             </div>
-          </div>
-          <div class="annual-offer">
-            <p>Dolby Atmos support</p>
-            <div class="annual-prices">
-              <div class="price-item">-</div>
-              <div class="price-item"><img src="logo-valide-blanc.svg" width="15px" alt=""></div>
-              <div class="price-item"><img src="logo-valide-blanc.svg" width="15px" alt=""></div>
-            </div>
-          </div>
-          <div class="annual-offer">
-            <p>Ad-free streaming***</p>
-            <div class="annual-prices">
-              <div class="price-item">-</div>
-              <div class="price-item"><img src="logo-valide-blanc.svg" width="15px" alt=""></div>
-              <div class="price-item"><img src="logo-valide-blanc.svg" width="15px" alt=""></div>
-            </div>
-          </div>
         </div>
         <div class="note">
-            <p>* Savings compared to a monthly subscription. <br>
-       ** All subscription offers may include trailers for our movies, promotion of Disney products and services, <br> sponsorship messages, and other limited promotional content. Audio and video quality depend on Internet speed and device <br> capabilities. Standard with ads subscription: not available on some devices, and does not allow downloads. <a href="">Learn more.</a></p>
+            <!-- Notes légales sur les conditions d'abonnement -->
+            <p>* Économies par rapport à un abonnement mensuel. <br>
+            ** Toutes les offres d'abonnements peuvent inclure des bandes-annonces pour nos films de cinéma, la promotion de produits et services Disney, <br> des messages de parrainage et autres contenus promotionnels limités. La qualité audio et vidéo dépend du débit Internet et des capacités de <br> votre appareil. Abonnement Standard avec pub: pas disponible sur certains appareils, et ne permet pas les téléchargements. <a href="">En savoir plus.</a></p>
         </div>
-      </section>
+    </section>
 
-<section class="tableau">
-    <div class="container">
-        <h1>Select your subscription</h1>
-        <table>
-            <thead>
-                <tr>
-                    <th></th>
-                    <th><button>STANDARD <br> WITH ADS</button><br><p>€5.99 / month</p></th>
-                    <th><button>STANDARD</button><br><p>€8.99 / month</p></th>
-                    <th><button>PREMIUM</button><br><p>€11.99 / month</p></th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                   <td>Enjoy 12 months for the price of 10*</td> 
-                    <td>-</td>
-                    <td>€89.90 / year</td>
-                    <td>€119.90 / year</td>
-                </tr>
-                <tr>
-                    <td>Video quality up to</td>
-                    <td>1080p Full HD</td>
-                    <td>1080p Full HD</td>
-                    <td>4K Ultra HD and HDR</td>
-                </tr>
-                <tr>
-                    <td>Simultaneous streams</td>
-                    <td>2</td>
-                    <td>2</td>
-                    <td>4</td>
-                </tr>
-                <tr>
-<td>Downloads</td>
-                    <td>-</td>
-                    <td><img src="logo-valide-blanc.svg" width="15px" alt=""></td>
-                    <td><img src="logo-valide-blanc.svg" width="15px" alt=""></td>
-                </tr>
-                <tr>
-                    <td>Dolby Atmos support</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td><img src="logo-valide-blanc.svg" width="15px" alt=""></td>
-                </tr>
-                <tr>
-                    <td>Ad-free streaming</td>
-                    <td>-</td>
-                    <td><img src="logo-valide-blanc.svg" width="15px" alt=""></td>
-                    <td><img src="logo-valide-blanc.svg" width="15px" alt=""></td>
-                </tr>
-            </tbody>
-        </table>
+    <!-- Section  les abonnements  -->
+    <section class="tableau-abonnement">
+        <div class="container">
+            <h1>Sélectionnez votre abonnement</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <!-- Les options d'abonnement  forme de tableau-abonnement -->
+                        <th><button>STANDARD <br> AVEC PUB</button><br><p>5,99 € / mois</p></th>
+                        <th><button>STANDARD</button><br><p>8,99 € / mois</p></th>
+                        <th><button>PREMIUM</button><br><p>11,99 € / mois</p></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Caractéristiques des abonnements forme de tableau-abonnement -->
+                    <tr>
+                        <td>Profitez de 12 mois au prix de 10*</td> 
+                        <td>-</td>
+                        <td>89,90 € / an</td>
+                        <td>119,90 € / an</td>
+                    </tr>
+                    <tr>
+                        <td>Qualité vidéo jusqu'à</td>
+                        <td>1080p Full HD</td>
+                        <td>1080p Full HD</td>
+                        <td>4K Ultra HD et HDR</td>
+                    </tr>
+                    <tr>
+                        <td>Lectures simultanées</td>
+                        <td>2</td>
+                        <td>2</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>Téléchargements</td>
+                        <td>-</td>
+                        <td><img src="images/logo-valide-blanc.svg" width="15px" alt=""></td>
+                        <td><img src="images/logo-valide-blanc.svg" width="15px" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Prise en charge de Dolby Atmos</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td><img src="images/logo-valide-blanc.svg" width="15px" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>Streaming sans publicité</td>
+                        <td>-</td>
+                        <td><img src="images/logo-valide-blanc.svg" width="15px" alt=""></td>
+                        <td><img src="images/logo-valide-blanc.svg" width="15px" alt=""></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
 
-        <br>
-        <div class="note">
-            <p>* Savings compared to a monthly subscription. <br>
-       ** All subscription offers may include trailers for our movies, promotion of Disney products and services, <br> sponsorship messages, and other limited promotional content. Audio and video quality depend on Internet speed and device <br> capabilities. Standard with ads subscription: not available on some devices, and does not allow downloads. <a href="">Learn more.</a></p>
+    <!-- Section présentant les fonctionnalités supplémentaires et images -->
+    <section class="presentation2">
+        <div class="titre">
+            <h1>Regardez selon vos envies</h1>
+            <p>Profitez des plus belles histoires au monde, partout et à tout moment.</p>
         </div>
-    </div>
-</section>
 
-<section class="presentation2">
-    <div class="titre">
-        <h1>Watch according to your desires</h1>
-        <p>Enjoy the most beautiful stories in the world, anywhere and anytime.</p>
-    </div>
+        <div class="images">
+            <!-- Image illustrative  -->
+            <center><img src="images/original.jpeg" alt=""></center>
+        </div>
 
-    <div class="images">
-        <center><img src="original.jpeg" alt=""></center>
-    </div>
-     
-    <div class="conteneur">
-        <div class="sous-conteneur">
-            <img src="logo-bobine-film.png" width="78px" alt="">
-            <h2>Endless<br class="tablet-only"> entertainment</h2>
-            <p>Discover thousands <br class="tablet-only"> of hours of series, movies, and <br class="tablet-only"> original productions.</p>
+        <div class="conteneur">
+            <!-- Trois sous-sections pour des fonctionnalités supplémentaires -->
+            <div class="sous-contenant">
+                <img src="images/logo-bobine-film.png" width="78px" alt="">
+                <h2>Un divertissement<br class="seulement-tablette"> sans fin</h2>
+                <p>Découvrez des milliers <br class="seulement-tablette"> d'heures de séries, films et <br class="seulement-tablette"> productions originales.</p>
+            </div>
+            <div class="sous-contenant">
+                <img src="images/logo-ecran-couleur.png" width="78px" alt="">
+                <h2>Disponible sur vos<br class="seulement-tablette"> appareils préférés</h2>
+                <p>Utilisez jusqu'à 4 appareils <br class="seulement-tablette"> compatibles en simultané.</p>
+            </div>
+            <div class="sous-contenant">
+                <img src="images/original_9.png" width="78px" alt="">
+                <h2>Un contrôle parental<br class="seulement-tablette"> intuitif</h2>
+                <p>Protégez votre famille avec <br class="seulement-tablette"> un contrôle parental simple <br class="seulement-tablette"> d'utilisation.</p>
+            </div>
         </div>
-        <div class="sous-conteneur">
-            <img src="logo-ecran-couleur.png" width="78px" alt="">
-            <h2>Available on your<br class="tablet-only"> favorite devices</h2>
-            <p>Use up to 4 compatible <br class="tablet-only"> devices simultaneously.</p>
-        </div>
-        <div class="sous-conteneur">
-            <img src="original_9.png" width="78px" alt="">
-            <h2>Intuitive<br class="tablet-only"> parental control</h2>
-            <p>Protect your family with <br class="tablet-only"> an easy-to-use parental control.</p>
-        </div>
-    </div>
-</section>
+    </section>
+
 
 <section class="menu-deroulant">
     <div class="faq-container">
-        <h1>Frequently Asked Questions</h1>
-<div class="faq-item">
-    <div class="faq-question">
-        <h2>What is Disney+?</h2>
-        <span class="faq-toggle">+</span>
-    </div>
-    <div class="faq-answer">
-        <p>Disney+ is the home of Disney, Pixar, Marvel, Star Wars, National Geographic, Star, and more.</p>
-    </div>
-</div>
-<div class="faq-item">
-    <div class="faq-question">
-        <h2>What can I watch on Disney+?</h2>
-        <span class="faq-toggle">+</span>
-    </div>
-    <div class="faq-answer">
-        <p>Disney+ offers you a growing collection of stories:</p>
-        <ul>
-            <li>Exclusive original series and movies</li>
-            <li>Timeless classics from Walt Disney Animation Studios</li>
-            <li>Entertainment stories including comedies, dramas, real-life inspired stories, etc.</li>
-            <li>National Geographic documentaries, special productions, and much more.</li>
-        </ul>
-    </div>
-</div>
-<div class="faq-item">
-    <div class="faq-question">
-        <h2>What is the price of a Disney+ subscription?</h2>
-        <span class="faq-toggle">+</span>
-    </div>
-    <div class="faq-answer">
-        <p>You can choose from three levels of Disney+ subscription:</p>
-        <ul>
-            <li><strong>Premium</strong> (€11.99/month or €119.99/year): Resolution up to 4K Ultra HD and HDR. 4 simultaneous streams. Downloads for offline viewing on up to 10 devices. Dolby Atmos audio on compatible content.</li>
-            <li><strong>Standard</strong> (€8.99/month or €89.99/year): Resolution up to 1080p Full HD. 2 simultaneous streams. Downloads for offline viewing on up to 10 devices. 5.1 surround sound on compatible content.</li>
-            <li><strong>Basic</strong> (€5.99/month): Resolution up to 1080p Full HD. 2 simultaneous streams. 5.1 surround sound on compatible content. Ad-supported content.</li>
-        </ul>
-    </div>
-</div>
-<div class="faq-item">
-    <div class="faq-question">
-        <h2>What devices and platforms can I use with Disney+?</h2>
-        <span class="faq-toggle">+</span>
-    </div>
-    <div class="faq-answer">
-        <p>Disney+ is accessible on mobile devices, web browsers, game consoles, TV boxes, and smart TVs.</p>
-    </div>
-</div>
-<div class="faq-item">
-    <div class="faq-question">
-        <h2>Does a Disney+ subscription have a commitment period?</h2>
-        <span class="faq-toggle">+</span>
-    </div>
-    <div class="faq-answer">
-        <p>Disney+ has no commitment and you can cancel your subscription at any time. The cancellation will take effect at the end of the period you have paid for.</p>
-        <ol>
-            <li>Log in to www.DisneyPlus.com</li>
-            <li>Select your profile</li>
-            <li>Select Account</li>
-            <li>Select your subscription</li>
-            <li>Select Cancel Subscription</li>
-            <li>Select Continue to cancel</li>
-        </ol>
-        <p>For more information, click <a href="">here</a>.</p>
-    </div>
-</div>
-
+        <!-- Titre principal pour la section des questions fréquentes -->
+        <h1>Questions fréquentes</h1>
+        
+        <!-- Bloc de question FAQ avec réponse cachée/déroulante -->
+        <div class="article-FAQ">
+            <div class="faq-question">
+                <!-- Question affichée à l'utilisateur -->
+                <h2>Qu'est-ce que Disney+ ?</h2>
+                <!-- Symbole "+" ou "-" qui change selon l'état de la question (ouverte ou fermée) -->
+                <span class="FAQ-basculer">+</span>
+            </div>
+            <div class="FAQ-réponse">
+                <!-- Réponse à la question, qui apparaît lorsque l'utilisateur clique dessus -->
+                <p>Disney+ est la destination des univers Disney, Pixar, Marvel, Star Wars, National Geographic, Star et encore +.</p>
+            </div>
+        </div>
+        
+        <!-- Un autre élément de la FAQ -->
+        <div class="article-FAQ">
+            <div class="faq-question">
+                <h2>Que puis-je regarder sur Disney+ ?</h2>
+                <span class="FAQ-basculer">+</span>
+            </div>
+            <div class="FAQ-réponse">
+                <p>Disney+ vous offre une collection d'histoires qui ne cesse de s'agrandir :</p>
+                <ul>
+                    <!-- Liste des éléments que les utilisateurs peuvent regarder -->
+                    <li>Des séries et films originaux exclusifs</li>
+                    <li>Des classiques intemporels réalisés par Walt Disney Animation Studios</li>
+                    <li>Des histoires de divertissement avec des comédies, des drames, des histoires inspirées de faits réels, etc.</li>
+                    <li>Des documentaires National Geographic, sans oublier des productions spéciales et bien plus encore.</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Question concernant le prix de l'abonnement -->
+        <div class="article-FAQ">
+            <div class="faq-question">
+                <h2>Quel est le prix de l'abonnement Disney+ ?</h2>
+                <span class="FAQ-basculer">+</span>
+            </div>
+            <div class="FAQ-réponse">
+                <p>Vous pouvez choisir parmi trois niveaux d'abonnement à Disney+ :</p>
+                <ul>
+                    <!-- Liste des options d'abonnement avec leurs caractéristiques -->
+                    <li><strong>Premium</strong> (11,99 €/mois ou 119,99 €/an) : Résolution jusqu'à 4K Ultra HD et HDR. 4 lectures simultanées. Téléchargements pour lecture hors ligne jusqu'à 10 appareils. Son Dolby Atmos sur les contenus compatibles.</li>
+                    <li><strong>Standard</strong> (8,99 €/mois ou 89,99 €/an) : Résolution jusqu'à 1080p Full HD. 2 lectures simultanées. Téléchargements pour lecture hors ligne jusqu'à 10 appareils. Son surround 5.1 sur les contenus compatibles.</li>
+                    <li><strong>Basique</strong> (5,99 €/mois) : Résolution jusqu'à 1080p Full HD. 2 lectures simultanées. Son surround 5.1 sur les contenus compatibles. Contenus publicitaires.</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Question concernant les appareils compatibles -->
+        <div class="article-FAQ">
+            <div class="faq-question">
+                <h2>Quels appareils et plateformes puis-je utiliser avec Disney+ ?</h2>
+                <span class="FAQ-basculer">+</span>
+            </div>
+            <div class="FAQ-réponse">
+                <p>Disney+ est accessible sur mobiles, navigateurs Web, consoles de jeux, décodeurs TV et TV connectées.</p>
+            </div>
+        </div>
+        
+        <!-- Question concernant la durée d'engagement de l'abonnement -->
+        <div class="article-FAQ">
+            <div class="faq-question">
+                <h2>L'abonnement Disney+ comprend-il une durée d'engagement ?</h2>
+                <span class="FAQ-basculer">+</span>
+            </div>
+            <div class="FAQ-réponse">
+                <p>Disney+ est sans engagement et vous pouvez annuler votre abonnement quand vous le souhaitez. L'annulation sera effective à la fin de la période pour laquelle vous avez payé.</p>
+                <!-- Instructions détaillées sur la manière d'annuler un abonnement -->
+                <ol>
+                    <li>Identifiez vous sur www.DisneyPlus.com</li>
+                    <li>Sélectionnez votre profil</li>
+                    <li>Sélectionnez Compte</li>
+                    <li>Sélectionnez votre abonnement</li>
+                    <li>Sélectionnez Résilier l'abonnement</li>
+                    <li>Sélectionnez Continuer pour résilier</li>
+                </ol>
+                <p>Pour plus d'information cliquez <a href="">ici</a>.</p>
+            </div>
+        </div>
     </div>
 </section>
-<script src="script.js">document.querySelectorAll('.faq-item').forEach(item => {
+
+<!-- Script permettant de rendre les questions FAQ interactives (dérouler/fermer les réponses) -->
+<script>
+document.querySelectorAll('.article-FAQ').forEach(item => {
     item.addEventListener('click', () => {
         // Si l'élément est déjà actif, on le désactive
         if (item.classList.contains('active')) {
             item.classList.remove('active');
-            item.querySelector('.faq-toggle').textContent = '+';
+            item.querySelector('.FAQ-basculer').textContent = '+';
             return;
         }
         // Fermer tous les autres éléments FAQ
-        document.querySelectorAll('.faq-item').forEach(i => {
+        document.querySelectorAll('.article-FAQ').forEach(i => {
             i.classList.remove('active');
-            i.querySelector('.faq-toggle').textContent = '+';
+            i.querySelector('.FAQ-basculer').textContent = '+';
         });
         // Activer l'élément courant
         item.classList.add('active');
-        item.querySelector('.faq-toggle').textContent = '-';
+        item.querySelector('.FAQ-basculer').textContent = '-';
     });
-});</script>
+});
+</script>
+
 <section class="presentation3">
+    <!-- Section présentant les plateformes et appareils compatibles avec Disney+ -->
     <div class="titre">
-        <h1>Accessible on Your Favorite Devices</h1>
+        <h1>Accessible sur vos appareils préférés</h1>
     </div>
 
     <div class="conteneur">
-        <div class="sous-conteneur">
-            <img src="logo-television.png" width="228px" alt="">
-            <h2>Televisions</h2>
-            <div class="groupe">
+        <!-- Sous-section pour les télévisions compatibles -->
+        <div class="sous-contenant">
+            <img src="images/logo-television.png" width="228px" alt="">
+            <h2>Télévisions</h2>
+            <div class="groupe-pour-type-de-modele">
                 <p>Amazon Fire TV</p>
-                <p>Android TV Devices</p>
+                <p>Appareils Android TV</p>
                 <p>Apple TV</p>
                 <p>Chromecast</p>
-                <p>LG TVs</p>
+                <p>TV LG</p>
                 <p>Roku</p>
                 <p>Samsung</p>
             </div>
         </div>
-        <div class="sous-conteneur">
-            <img src="logo-ecran-ordinateur.png" width="228px" alt="">
-            <h2>Computers</h2>
-            <div class="groupe">
+        
+        <!-- Sous-section pour les ordinateurs compatibles -->
+        <div class="sous-contenant">
+            <img src="images/logo-ecran-ordinateur.png" width="228px" alt="">
+            <h2>Ordinateurs</h2>
+            <div class="groupe-pour-type-de-modele-pour-type-de-modele">
                 <p>Chrome OS</p>
                 <p>MacOS</p>
-                <p>Windows PC</p>
+                <p>PC Windows</p>
             </div>
         </div>
-        <div class="sous-conteneur">
-            <img src="logo-tablet.png" width="228px" alt="">
-            <h2>Mobile Devices and Tablets</h2>
-            <div class="groupe">
-                <p>Amazon Fire Tablets</p>
-                <p>Android Mobile Phones and Tablets</p>
-                <p>iPhones and iPads</p>
+        
+        <!-- Sous-section pour les appareils mobiles et tablettes compatibles -->
+        <div class="sous-contenant">
+            <img src="images/logo-tablet.png" width="228px" alt="">
+            <h2>Mobiles et tablettes</h2>
+            <div class="groupe-pour-type-de-modele">
+                <p>Tablettes Amazon Fire</p>
+                <p>Mobiles et tablettes Android</p>
+                <p>iPhones et iPads</p>
             </div>
         </div>
-        <div class="sous-conteneur">
-            <img src="logo-manette.png" width="228px" alt="">
-            <h2>Gaming Consoles</h2>
-            <div class="groupe">
+        
+        <!-- Sous-section pour les consoles de jeux compatibles -->
+        <div class="sous-contenant">
+            <img src="images/logo-manette.png" width="228px" alt="">
+            <h2>Consoles de jeux</h2>
+            <div class="groupe-pour-type-de-modele">
                 <p>PS4</p>
                 <p>PS5</p>
                 <p>Xbox One</p>
@@ -349,35 +401,43 @@
     </div>
 </section>
 
-</main>
-
+<!-- Footer de la page avec informations supplémentaires et mentions légales -->
 <footer>
     <div class="logo">
-     <center><img src="grand-logo-disney-plus.png" width="78px" alt=""></center> 
+        <center><img src="images/grand-logo-disney-plus.png" width="78px" alt=""></center> 
     </div>
     
     <div class="ligne1">
-          <a href="https://alexandre-stejkowski.github.io/STEJKOWSKI-Alexandre-projet-Disney-plus/"><div class="excp1"><img src="logo-planete (1).svg" width="12px" alt=""> <span class="">english</span>  <span class="rotate"><img src="logo-signe-mathematique.svg" width="10px" alt=""></span></div></a> 
-           <div>Subscription Terms and Conditions</div>
-           <div>Privacy Policy</div>
-           <div>Data Rights in the EU and UK</div>
-           <div>Cookie Policy</div> 
+        <!-- Lien vers une version en anglais du site -->
+        <a href="https://alexandre-stejkowski.github.io/STEJKOWSKI-Alexandre-projet-Disney-plus/">
+            <div class="excp1"><img src="images/logo-planete (1).svg" width="12px" alt=""> <span class="">Francais</span>  
+            <span class="tourner"><img src="images/logo-signe-mathematique.svg" width="10px" alt=""></span></div>
+        </a>   
+        <div>Conditions générales d'abonnement</div>
+        <div>Règles de Respect de la vie Privée</div>
+        <div>Droits Données dans l'UE et au R-U</div>
+        <div>Politique de cookies</div> 
     </div>
+    
     <div class="ligne2">
-        <div>Interest-Based Advertising</div>
-        <div>Compatible Devices</div>
-        <div>Help</div>
-        <div>Gift Disney+</div>
-        <div>About Disney+</div>
-        <div>Manage Privacy Preferences</div>
+        <!-- Liens vers d'autres pages importantes du site -->
+        <div>Publicité ciblées par centres d'intérêt</div>
+        <div>Appareils compatibles</div>
+        <div>Aide</div>
+        <div>Offrez Disney+</div>
+        <div>À propos de Disney+</div>
+        <div>Gérez les préférences de confidentialité</div>
     </div>
 
     <div class="ligne3">
-        <p>Content and platforms may vary by geographic location.</p>
-        <p>© STEJKOWSKI Alexandre. All rights reserved.</p>
+        <!-- Mention légale sur la disponibilité des contenus -->
+        <p>Le contenu et les plateformes peuvent varier selon la zone géographique.</p>
+        <!-- Copyright et droits réservés -->
+        <p>&copy; STEJKOWSKI Alexandre. Tous droits réservés.</p>
     </div>
-
 </footer>
 
+    
+    
 </body>
 </html>
