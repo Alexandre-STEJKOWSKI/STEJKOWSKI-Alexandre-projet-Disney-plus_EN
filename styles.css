@@ -42,7 +42,7 @@ header nav button {
 }
 
 header nav button:hover {
-    background-color: #10B5C5;
+    background-color: #3b0dd1;
     transition: ease-in 0.5s;
 }
 
